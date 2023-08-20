@@ -10,7 +10,7 @@ body{
 nav{
     height: 80px;
     width: 100%;
-    background: #34495e;
+    background: #416360;
 }
 label.logo{
     font-size: 32px;
@@ -49,6 +49,11 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+.background-content img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
 @media (max-width: 1048px){
     label.logo{
         font-size: 32px;
@@ -69,7 +74,7 @@ nav #icon{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2f3640;
+        background: #324b3c;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -85,7 +90,7 @@ nav #icon{
     }
     a.active,a:hover{
         border: none;
-        color: #3498db;
+        color: #33d383;
       }
     nav ul.show{
         left: 0;
